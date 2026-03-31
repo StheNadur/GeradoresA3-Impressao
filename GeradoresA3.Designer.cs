@@ -114,7 +114,7 @@
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(487, 260);
+            lblStatus.Location = new Point(566, 259);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(106, 15);
             lblStatus.TabIndex = 8;
@@ -148,7 +148,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(861, 304);
+            ClientSize = new Size(908, 332);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);

@@ -64,12 +64,12 @@ namespace GeradoresA3_Impressao
             }
 
             string pastaPai = Path.GetDirectoryName(Path.GetDirectoryName(caminhoBoleto))!;
-            string pastaOutput = Path.Combine(pastaPai, "PDFS_A3_GERADOS");
+            string pastaOutput = Path.Combine(pastaPai, "PDF_A3");
 
             if (!Directory.Exists(pastaOutput))
                 Directory.CreateDirectory(pastaOutput);
 
-            string nomeArquivo = $"Resultado_{DateTime.Now:yyyyMMdd_HHmmss}.pdf";
+            string nomeArquivo = $"PDF_A3_{DateTime.Now:yyyyMMdd_HHmmss}.pdf";
             string caminhoFinal = Path.Combine(pastaOutput, nomeArquivo);
 
             pdfSaida.Save(caminhoFinal);
